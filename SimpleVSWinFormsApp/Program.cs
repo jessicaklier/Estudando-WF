@@ -9,14 +9,14 @@ namespace SimpleVSWinFormsApp
     static class Program
     {
         /// <summary>
-        /// Ponto de entrada principal para o aplicativo.
+        /// Ponto de entrada principal para o aplicativo.                                                                                                                                                                                                                                                                                                                                                                                        
         /// </summary>
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.EnableVisualStyles();// Habilitar estilos visuais.
+            Application.SetCompatibleTextRenderingDefault(false); // Conjunto de aplicativos compativeis com renderização de textos padrões
+            Application.Run(new MainWindow());// execução do aplicativo nova janela principal.
         }
     }
 }
